@@ -1,12 +1,14 @@
 import React from 'react'
-import '../styles/global.scss'
+import Layout from '../containers/Layout';
+import Login from '../containers/Login';
+import '../styles/global.css'
 
 
 const index = () => {
 	return (
-		<h1>
-			Hola Mundo!
-		</h1>
+		<Layout>
+			<Login />
+		</Layout>
 	);
 };
 
