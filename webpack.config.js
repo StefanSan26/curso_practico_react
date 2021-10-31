@@ -45,8 +45,5 @@ module.exports = {
   ],
   devServer: {
 		historyApiFallback: true,	
-    allowedHosts: path.join(__dirname, "dist"),
-    compress: true,
-    port: 3005,
   },
 };
