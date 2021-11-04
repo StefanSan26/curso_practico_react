@@ -1,13 +1,13 @@
-{
-	"homepage": "https://https://stefansan26.github.io/curso_practico_react/",
+{	
+	"homepage": "https://stefansan26.github.io/curso_practico_react/",
   "name": "curso_practico_react",
   "version": "1.0.0",
   "description": "react eshop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "react",
